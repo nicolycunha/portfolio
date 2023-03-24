@@ -1,24 +1,22 @@
-# portfolio
+<p align="center">
 
-## Project setup
-```
-yarn install
-```
+  <h3 align="center">Portfólio</h3>
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+  <p align="center">
+    Portfólio pessoal de desenvolvimento.
+       <br />
+    <br />
+    <a href="https://portfolio.netlify.app/">Projeto</a>
+    ·
+    <a href="https://www.linkedin.com/in/nicoly-oliveira-da-cunha/">Contato</a>
+  </p>
+</p>
 
-### Compiles and minifies for production
-```
-yarn build
-```
+# Objetivo:
+Este repositório foi criado com o objetivo de armazenar o código do meu portfólio pessoal, contendo informações úteis e projetos desenvolvidos para estudos ou com o objetivo de melhorar minhas habilidades técnicas.
 
-### Lints and fixes files
-```
-yarn lint
-```
+# Techs utilizadas: 
+HTML<br>
+SCSS<br>
+VueJS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
