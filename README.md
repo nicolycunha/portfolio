@@ -6,7 +6,7 @@
     Portfólio pessoal de desenvolvimento.
        <br />
     <br />
-    <a href="https://portfolio.netlify.app/">Projeto</a>
+    <a href="https://nicoly-oliveira-da-cunha.netlify.app/">Projeto</a>
     ·
     <a href="https://www.linkedin.com/in/nicoly-oliveira-da-cunha/">Contato</a>
   </p>
