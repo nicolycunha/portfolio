@@ -1,15 +1,12 @@
 <template>
-  <div class="about">
-    <h1>Sobre</h1>
-  </div>
+  <h1>Projetos</h1>
 </template>
 
 <script>
 export default {
-  name: "AboutView",
+  name: "ProjectsView",
 };
 </script>
 
 <style lang="scss" scoped>
 </style>
-
