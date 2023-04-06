@@ -26,8 +26,8 @@
     <section class="content">
       <HomeView id="home"></HomeView>
       <AboutView id="about"></AboutView>
-      <ProjectsView id="experiences"></ProjectsView>
-      <ExperiencesView id="projects"></ExperiencesView>
+      <ExperiencesView id="experiences"></ExperiencesView>
+      <ProjectsView id="projects"></ProjectsView>
       <HardSkillsView id="hard-skills"></HardSkillsView>
     </section>
 

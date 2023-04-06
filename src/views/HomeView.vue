@@ -11,7 +11,7 @@
         href="http://www.linkedin.com/in/nicoly-oliveira-da-cunha/"
         target="_blank"
       >
-        <img src="../assets/icons/SMS.svg" alt="Ícone SMS" class="icon" />
+        <img src="../assets/icons/sms.svg" alt="Ícone SMS" class="icon" />
         <span class="text">Fale comigo</span>
       </a>
     </div>
