@@ -1,5 +1,5 @@
 <template>
-  <section class="presentation">
+  <header class="presentation">
     <div class="about-me">
       <p>
         Oi! Eu me chamo <span>Nicoly Cunha </span> e sou desenvolvedora
@@ -21,7 +21,7 @@
       alt="Front-end Developer"
       src="../assets/images/developer.svg"
     />
-  </section>
+  </header>
   <section class="info">
     <div class="experience">
       <p class="years">+ {{ yearsExperience }}</p>
