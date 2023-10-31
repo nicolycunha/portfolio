@@ -3,7 +3,7 @@
     <div class="about-me">
       <p>
         Oi! Eu me chamo <span>Nicoly Cunha </span> e sou desenvolvedora
-        front-end.
+        full stack.
       </p>
 
       <a
@@ -24,7 +24,7 @@
   </header>
   <section class="info">
     <div class="experience">
-      <p class="years">+ {{ yearsExperience }}</p>
+      <p class="years">+ {{ calculateExperience(new Date("2019-08")) }}</p>
       <span> anos de experiência </span>
     </div>
     <div class="job">
@@ -46,6 +46,13 @@ export default {
       yearsExperience: new Date().getYear() - new Date("2019-08").getYear() - 1,
     };
   },
+  methods: {
+    calculateExperience(date) { 
+      var ageDifMs = Date.now() - date;
+      var ageDate = new Date(ageDifMs); 
+      return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
+  }
 };
 </script>
 

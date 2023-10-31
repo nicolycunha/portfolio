@@ -22,21 +22,27 @@
           />
         </a>
 
-        <a href="https://www.instagram.com/nii.cunha/" target="_blank">
+        <!-- <a href="https://www.instagram.com/nii.cunha/" target="_blank">
           <img
             src="../assets/icons/instagram.svg"
             alt="Entre em contato pelo instagram"
           />
-        </a>
+        </a> -->
 
-        <a href="http://www.linkedin.com/in/nicoly-oliveira-da-cunha/" target="_blank">
+        <a
+          href="http://www.linkedin.com/in/nicoly-oliveira-da-cunha/"
+          target="_blank"
+        >
           <img
             src="../assets/icons/linkedin.svg"
             alt="Entre em contato pelo linkedin"
           />
         </a>
 
-        <a href="https://api.whatsapp.com/send?phone=5511946655558" target="_blank">
+        <a
+          href="https://api.whatsapp.com/send?phone=5511946655558"
+          target="_blank"
+        >
           <img
             src="../assets/icons/whatsapp.svg"
             alt="Entre em contato pelo whatsapp"

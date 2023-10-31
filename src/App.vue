@@ -10,9 +10,9 @@
     <ul class="actions">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">Sobre</a></li>
-      <li><a href="#experiences">Experiências</a></li>
+      <!-- <li><a href="#experiences">Experiências</a></li> -->
       <li><a href="#projects">Projetos</a></li>
-      <li><a href="#hard-skills">Conhecimentos</a></li>
+      <!-- <li><a href="#hard-skills">Conhecimentos</a></li> -->
     </ul>
 
     <div class="menu-responsive">
@@ -25,9 +25,9 @@
   <main class="content">
     <HomeView id="home"></HomeView>
     <AboutView id="about"></AboutView>
-    <ExperiencesView id="experiences"></ExperiencesView>
+    <!-- <ExperiencesView id="experiences"></ExperiencesView> -->
     <ProjectsView id="projects"></ProjectsView>
-    <HardSkillsView id="hard-skills"></HardSkillsView>
+    <!-- <HardSkillsView id="hard-skills"></HardSkillsView> -->
   </main>
 
   <footer class="footer">
@@ -38,9 +38,9 @@
 <script>
 import HomeView from "./views/HomeView.vue";
 import AboutView from "./views/AboutView.vue";
-import ExperiencesView from "./views/ExperiencesView.vue";
+// import ExperiencesView from "./views/ExperiencesView.vue";
 import ProjectsView from "./views/ProjectsView.vue";
-import HardSkillsView from "./views/HardSkillsView.vue";
+// import HardSkillsView from "./views/HardSkillsView.vue";
 
 export default {
   data() {
@@ -51,9 +51,9 @@ export default {
   components: {
     HomeView,
     AboutView,
-    ExperiencesView,
+    // ExperiencesView,
     ProjectsView,
-    HardSkillsView,
+    // HardSkillsView,
   },
 };
 </script>
@@ -83,41 +83,61 @@ export default {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 700;
+     font-family:monospace;
+    // letter-spacing: 2.5px;
     text-decoration: none;
+    border-right: 4px solid;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking 0.5s infinite step-end alternate;
 
-    &:hover {
-      animation: logo 2s ease 0s 1 normal forwards;
+    // &:hover {
+    //   // animation: logo 2s ease 0s 1 normal forwards;
+
+    // }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
     }
 
-    @keyframes logo {
-      0% {
-        transform: scale3d(1, 1, 1);
-      }
-
-      30% {
-        transform: scale3d(1.25, 0.75, 1);
-      }
-
-      40% {
-        transform: scale3d(0.75, 1.25, 1);
-      }
-
+    @keyframes blinking {
       50% {
-        transform: scale3d(1.15, 0.85, 1);
-      }
-
-      65% {
-        transform: scale3d(0.95, 1.05, 1);
-      }
-
-      75% {
-        transform: scale3d(1.05, 0.95, 1);
-      }
-
-      100% {
-        transform: scale3d(1, 1, 1);
+        border-color: transparent;
       }
     }
+
+    // @keyframes logo {
+    //   0% {
+    //     transform: scale3d(1, 1, 1);
+    //   }
+
+    //   30% {
+    //     transform: scale3d(1.25, 0.75, 1);
+    //   }
+
+    //   40% {
+    //     transform: scale3d(0.75, 1.25, 1);
+    //   }
+
+    //   50% {
+    //     transform: scale3d(1.15, 0.85, 1);
+    //   }
+
+    //   65% {
+    //     transform: scale3d(0.95, 1.05, 1);
+    //   }
+
+    //   75% {
+    //     transform: scale3d(1.05, 0.95, 1);
+    //   }
+
+    //   100% {
+    //     transform: scale3d(1, 1, 1);
+    //   }
+    // }
   }
 
   .actions {
